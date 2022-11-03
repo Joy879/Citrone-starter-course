@@ -1,1 +1,1 @@
-# Basic HTML skeleton
+# Weekly practice 
