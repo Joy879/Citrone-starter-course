@@ -14,47 +14,100 @@
   div {
     border: 1px solid black;
     border-radius: 12px;
-    width: 270px;
-    /* width: 18%; */
+    width: 300px;
     padding: 12px;
   }
   .interface {
     border-bottom: 1px dashed black;
   }
+  .bound {
+    display: flex;
+    border: none;
+    width: 100%;
+
+  }
+  .two-sections {
+    display: flex;
+    border: none;
+    align-items: center;
+    width: 100%;
+    overflow-wrap: break-word;
+
+  }
 </style>
 
 <body>
-  <div>
-    <h3><b>Free</b></h3>
-    <p>
-      For individuals or very small
+  <div class="bound">
+    <div>
+      <h3><b>Free</b></h3>
+      <p>
+        For individuals or very small
+        <br>
+        teams just getting started
+        <br>
+        with Airtable
+      </p>
       <br>
-      teams just getting started
       <br>
-      with Airtable
-    </p>
+      <br>
+      <h1>Free</h1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <button>
+        Sign up
+      </button>
+      <br>
+      <p><b>Free</b> includes:</p>
+      <br>
+      <ul>
+        <li>Unlimited bases</li>
+        <li>Up to creators or editors</li>
+        <li>Unlimited commenter & read-only users</li>
+        <li><span class="interface">Interface Designer</span></li>
+        <li>1 <span class="interface">extension</span> per base</li>
+        <li>1 sync integration</li>
+        <li>1,200 records per base</li>
+        <li>2GB of attachments per base</li>
+      </ul>
+    </div>
     <br>
-    <br>
-    <br>
-    <h1>Free</h1>
-    <br>
-    <br>
-    <button>
-      Sign up
-    </button>
-    <br>
-    <p><b>Free</b> includes:</p>
-    <br>
-    <ul>
-      <li>Unlimited bases</li>
-      <li>Up to creators or editors</li>
-      <li>Unlimited commenter & read-only users</li>
-      <li><span class="interface">Interface Designer</span></li>
-      <li>1 <span class="interface">extension</span> per base</li>
-      <li>1 sync integration</li>
-      <li>1,200 records per base</li>
-      <li>2GB of attachments per base</li>
-    </ul>
-  </div>
+    <div>
+      <h3><b>Plus</b></h3>
+      <p>
+        For teams looking to create 
+        <br>
+        connected apps to manage 
+        <br>
+        their own workflows
+      </p>
+      <br>
+      <div class="two-sections">
+      <h1>  $10  </h1>
+      <div class="two-sections">      
+      <p>per seat per month billed annually</p>
+      </div>
+      </div>
+      <p><strong>$12 </strong> billed monthly</p>
+      <br>
+      <br>
+      <button>
+        Try for free
+      </button>
+      <br>
+      <p><b>Everything in Free</b> plus:</p>
+      <br>
+      <ul>
+        <li> 3 <span class="interface">extensions</span> per base</li>
+        <li>3 sync integrations</li>
+        <li>5,000 records per base</li>
+        <li>5GB of attachments per base</li>
+        <li>Custom branded forms</li>
+        <li>6-month revision & snapshot history</li>
+        <li>Automatic table syncing</li>
+      </ul>
+    </div>
+</div>
 </body>
 </html>
